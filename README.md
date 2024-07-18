@@ -1,2 +1,2 @@
 # payment-gateway-helpers
-A PHP based class for handling all backend calls for paystack, flutterwave and monnify API
+A PHP based class for handling all endpoint calls for paystack, flutterwave and monnify API
