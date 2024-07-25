@@ -1,5 +1,7 @@
 # payment-gateway-helpers
 A PHP based class for handling all endpoint calls for paystack, flutterwave and monnify API
+> NOTE: All codes are for demonstration purpose only
+
 
 #### How to Use For Paystack :
 First define your paystack API keys in an associative array with variable `$PSTK_API_KEYS` and key/value pairs as follows 
