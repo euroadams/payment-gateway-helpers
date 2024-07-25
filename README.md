@@ -14,7 +14,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 
 #### How to Use For Flutterwave :
 <p>
-<a href="https://www.flutterwave.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-2.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a> 
+<a href="https://www.flutterwave.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-1.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a> 
 </p>
 :point_right: Read the usage guide [here][l2] 
 
@@ -26,7 +26,9 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
    
 [link-author]: https://linkedin.com/in/adoagwai-godswill
 [l1]: <https://github.com/euroadams/payment-gateway-helpers/tree/main/paystack/README.md>
+
 [l2]: <https://github.com/euroadams/payment-gateway-helpers/tree/main/flutterwave/README.md>
+
 [l3]: <https://github.com/euroadams/payment-gateway-helpers/tree/main/monnify/README.md>
 
 
