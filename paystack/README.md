@@ -18,7 +18,5 @@ $PSTK_API_KEYS = array(
 		
 );
 
-?>
-
 ```
 
