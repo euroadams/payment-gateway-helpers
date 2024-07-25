@@ -4,7 +4,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 > NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
 
-#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Paystack" alt="Paystack" width="20" height="20"/></a>&nbsp;How to Use For Paystack :
+#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Paystack" alt="Paystack logo" width="20" height="20"/></a>&nbsp;How to Use For Paystack :
 First define your paystack API keys in an associative array with variable `$PSTK_API_KEYS` and key/value pairs as follows 
 
 ```
@@ -20,7 +20,7 @@ $PSTK_API_KEYS = array(
 
 ```
 
-#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave.svg" title="Flutterwave" alt="Flutterwave" width="20" height="20"/></a>&nbsp;How to Use For Flutterwave :
+#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave.svg" title="Flutterwave" alt="Flutterwave logo" width="20" height="20"/></a>&nbsp;How to Use For Flutterwave :
 
-#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Monnify" alt="Monnify" width="20" height="20"/></a>&nbsp;How to Use For Monnify :
+#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Monnify" alt="Monnify logo" width="20" height="20"/></a>&nbsp;How to Use For Monnify :
    
