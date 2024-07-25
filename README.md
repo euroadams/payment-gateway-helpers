@@ -3,7 +3,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 
 #### How to Use For Paystack :
 First define your paystack API keys in an associative array with variable `$PSTK_API_KEYS` and key/value pairs as follows 
-```
+`
 $PSTK_API_KEYS = array(
 
 'test_sk' => 'your paystack test secret key',
@@ -14,7 +14,7 @@ $PSTK_API_KEYS = array(
 		
 );
 
-```
+`
 
 #### How to Use For Flutterwave :
 
