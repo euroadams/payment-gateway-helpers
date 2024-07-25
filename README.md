@@ -1,7 +1,13 @@
 # payment-gateway-helpers
 A PHP based class for handling all endpoint calls for paystack, flutterwave and monnify API
+<a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Paystack" alt="Paystack logo" width="20" height="20"/></a>&nbsp;
+<a href="https://www.flutterwave.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave.svg" title="Flutterwave" alt="Flutterwave logo" width="20" height="20"/></a>&nbsp;
+<a href="https://www.monnify.com/" target="_blank" rel="noreferrer"><img src="/logos/monnify.svg" title="Monnify" alt="Monnify logo" width="20" height="20"/></a> 
 
-#### How to Use For Paystack &nbsp;<a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Paystack" alt="Paystack logo" width="20" height="20"/></a> :
+#### How to Use For Paystack :
+<p>
+<a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack-2.svg" title="Paystack" alt="Paystack logo" width="100" height="auto"/></a> 
+</p>
 :point_right: Read the usage guide [here][l1] 
 
 #### How to Use For Flutterwave &nbsp;<a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave.svg" title="Flutterwave" alt="Flutterwave logo" width="20" height="20"/></a> :
