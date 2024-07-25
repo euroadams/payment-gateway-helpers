@@ -4,7 +4,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 > NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
 
-#### How to Use For Paystack :
+#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="https://ruralfarmershub.com/assets/media/icons/app/payment/paystack-icon.svg" title="Paystack" alt="Paystack" width="40" height="40"/></a>&nbsp;How to Use For Paystack :
 First define your paystack API keys in an associative array with variable `$PSTK_API_KEYS` and key/value pairs as follows 
 ```
 $PSTK_API_KEYS = array(
