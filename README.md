@@ -10,18 +10,21 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 <p>
 <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack-2.svg" title="Paystack" alt="Paystack logo" width="100" height="auto"/></a> 
 </p>
-Read the usage guide [here][l1] 
+
+:point_right: Read the usage guide [here][l1] 
 
 #### How to Use For Flutterwave :
 <p>
 <a href="https://www.flutterwave.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-1.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a> 
 </p>
+
 :point_right: Read the usage guide [here][l2] 
 
 #### How to Use For Monnify :
 <p>
 <a href="https://www.monnify.com/" target="_blank" rel="noreferrer"><img src="/logos/monnify-2.svg" title="Monnify" alt="Monnify logo" width="100" height="auto"/></a> 
 </p>
+
 :point_right: Read the usage guide [here][l3] 
    
 [link-author]: https://linkedin.com/in/adoagwai-godswill
