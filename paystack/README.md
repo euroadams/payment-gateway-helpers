@@ -7,6 +7,7 @@
 First define your paystack API keys in an associative array with variable `$PSTK_API_KEYS` and key/value pairs as follows 
 
 ```
+<?php
 $PSTK_API_KEYS = array(
 
 'test_sk' => 'your paystack test secret key',
@@ -16,6 +17,8 @@ $PSTK_API_KEYS = array(
 'live_pk' => 'your paystack live public key',
 		
 );
+
+?>
 
 ```
 
