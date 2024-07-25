@@ -22,5 +22,5 @@ $PSTK_API_KEYS = array(
 
 #### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave.svg" title="Flutterwave" alt="Flutterwave logo" width="20" height="20"/></a>&nbsp;How to Use For Flutterwave :
 
-#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Monnify" alt="Monnify logo" width="20" height="20"/></a>&nbsp;How to Use For Monnify :
+#### <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/monnify.svg" title="Monnify" alt="Monnify logo" width="20" height="20"/></a>&nbsp;How to Use For Monnify :
    
