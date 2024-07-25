@@ -1,6 +1,7 @@
 # payment-gateway-helpers
 A PHP based class for handling all endpoint calls for paystack, flutterwave and monnify API
-> NOTE: All codes are for demonstration purpose only
+
+> NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
 
 #### How to Use For Paystack :
