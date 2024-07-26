@@ -19,6 +19,7 @@ define("FLWV_API_KEYS", array(
 'live_sk' => 'your flutterwave live secret key',
 'live_pk' => 'your flutterwave live public key',
 'live_encrypt' => 'your flutterwave live encrypt',
+
 'secret_hash' => 'your flutterwave secret hash',
 		
 ));
