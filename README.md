@@ -15,7 +15,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 
 ## Guide For Flutterwave :
 <p>
-<a href="https://flutterwave.com/ng" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-2.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a> 
+<a href="https://www.flutterwave.com/ng" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-2.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a> 
 </p>
 
 :point_right: Read the usage guide [here][l2] 
