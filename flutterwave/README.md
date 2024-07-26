@@ -13,10 +13,13 @@ First define a constant `FLWV_API_KEY` to hold your flutterwave API keys and ass
 define("FLWV_API_KEYS", array(
 
 'test_sk' => 'your flutterwave test secret key',
-'test_pk' => 'your flutterwave test public key', 
+'test_pk' => 'your flutterwave test public key',
+'test_encrypt' => 'your flutterwave test encrypt'
 		
 'live_sk' => 'your flutterwave live secret key',
 'live_pk' => 'your flutterwave live public key',
+'live_encrypt' => 'your flutterwave live encrypt',
+'secret_hash' => 'your flutterwave secret hash',
 		
 ));
 ?>
