@@ -19,6 +19,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 <a href="https://www.flutterwave.com/ng/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-2.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a> 
 </p>
 <img src="https://github.com/euroadams/euroadams/blob/master/assets/public/work-samples/flutterwave.jpg" alt="Flutterwave Sample" width="auto" height="auto"/>
+
 :point_right: Read the complete usage guide [here][l2] 
 
 ## Guide For Monnify :
@@ -26,6 +27,7 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 <a href="https://monnify.com/" target="_blank" rel="noreferrer"><img src="/logos/monnify-2.svg" title="Monnify" alt="Monnify logo" width="100" height="auto"/></a> 
 </p>
 <img src="https://github.com/euroadams/euroadams/blob/master/assets/public/work-samples/monnify.jpg" alt="Monnify Sample" width="auto" height="auto"/>
+
 :point_right: Read the complete usage guide [here][l3] 
    
 [link-author]: https://linkedin.com/in/adoagwai-godswill
