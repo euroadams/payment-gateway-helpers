@@ -1,10 +1,9 @@
 ## Usage Guide For Paystack :
-
-#### Configuring API Keys
-
 <p><a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack-2.svg" title="Paystack" alt="Paystack logo" width="100" height="auto"/></a></p>
 
 > NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
+
+#### Configuring API Keys
 
 First define a constant `PSTK_API_KEY` to hold your paystack API keys and assign it an associative array with key/value pairs as follows 
 
