@@ -1,6 +1,8 @@
 ## Usage Guide For Flutterwave :
 <p><a href="https://www.flutterwave.com/ng/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave-2.svg" title="Flutterwave" alt="Flutterwave logo" width="100" height="auto"/></a></p>
 
+<img src="https://github.com/euroadams/euroadams/blob/master/assets/public/work-samples/flutterwave.jpg" alt="Flutterwave Sample" width="auto" height="auto"/>
+
 > NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
 #### Configuring API Key
