@@ -1,4 +1,6 @@
-#### Usage Guide For Paystack :
+## Usage Guide For Paystack :
+
+#### Configuring API Keys
 
 <p><a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack-2.svg" title="Paystack" alt="Paystack logo" width="100" height="auto"/></a></p>
 
