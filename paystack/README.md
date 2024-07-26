@@ -4,11 +4,12 @@
 
 > NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
-First define your paystack API keys in an associative array with variable `$PSTK_API_KEYS` and key/value pairs as follows 
+First define a constant `PSTK_API_KEY` to hold your paystack API keys and assign it an associative array with key/value pairs as follows 
 
 ```php
 <?php
-$PSTK_API_KEYS = array(
+
+define("PSTK_API_KEYS", array(
 
 'test_sk' => 'your paystack test secret key',
 'test_pk' => 'your paystack test public key', 
@@ -16,7 +17,7 @@ $PSTK_API_KEYS = array(
 'live_sk' => 'your paystack live secret key',
 'live_pk' => 'your paystack live public key',
 		
-);
+));
 ?>
 ```
 
