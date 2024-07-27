@@ -8,7 +8,7 @@
 
 #### Configuring API Key
 
-First define a constant `#ff0000P``STK_API_KEY` to hold your paystack API keys and assign it an associative array with key/value pairs as follows 
+First define a constant `#ff0000 PSTK_API_KEY` to hold your paystack API keys and assign it an associative array with key/value pairs as follows 
 
 ```php
 <?php
