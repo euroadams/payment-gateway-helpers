@@ -12,13 +12,14 @@ First define a constant `MNFY_API_KEY` to hold your monnify API keys and assign 
 ```php
 <?php
 
-define("MNFY_API_KEYS", array(
+    define("MNFY_API_KEYS", array(
 
-'api_k' => 'your monnify key', 
-'api_sk' => 'your monnify secret key', 
-'contract_code' => 'your monnify contract code', 
-		
-));
+        'api_k' => 'your monnify key', 
+        'api_sk' => 'your monnify secret key', 
+        'contract_code' => 'your monnify contract code', 
+                
+        )
+    );
 ?>
 ```
 

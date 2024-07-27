@@ -12,15 +12,16 @@ First define a constant `PSTK_API_KEY` to hold your paystack API keys and assign
 ```php
 <?php
 
-define("PSTK_API_KEYS", array(
+    define("PSTK_API_KEYS", array(
 
-'test_sk' => 'your paystack test secret key',
-'test_pk' => 'your paystack test public key', 
-		
-'live_sk' => 'your paystack live secret key',
-'live_pk' => 'your paystack live public key',
-		
-));
+        'test_sk' => 'your paystack test secret key',
+        'test_pk' => 'your paystack test public key', 
+                
+        'live_sk' => 'your paystack live secret key',
+        'live_pk' => 'your paystack live public key',
+                
+        )
+    );
 ?>
 ```
 
