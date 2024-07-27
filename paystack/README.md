@@ -7,7 +7,7 @@
 > All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
 #### Configuring API Key
-
+`#0969DA`
 First define a constant `PSTK_API_KEY` to hold your paystack API keys and assign it an associative array with key/value pairs as follows 
 
 ```php
