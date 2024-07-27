@@ -3,7 +3,8 @@
 
 <img src="https://github.com/euroadams/euroadams/blob/master/assets/public/work-samples/monnify.jpg" alt="Monnify Sample" width="auto" height="auto"/>
 
-> NOTE: All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
+>[!NOTE]
+>All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
 #### Configuring API Key
 
