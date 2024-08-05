@@ -55,4 +55,7 @@ $monnify = new MonnifyPaymentGateway($trxCustomizations = 'title::Store,desc::Se
 ?>
 
 ```
+
+## Initializing the Monnify Gateway :
+
 ### MORE DOCUMENTATION LOADING....
