@@ -6,7 +6,7 @@
 >[!NOTE]
 >All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
-### Configuring API Key
+### Configuring the API Key
 
 First define a constant `FLWV_API_KEY` to hold your flutterwave API keys and assign it an associative array with key/value pairs as follows 
 
@@ -31,7 +31,7 @@ First define a constant `FLWV_API_KEY` to hold your flutterwave API keys and ass
 ```
 
 
-### Instantiating the Flutterwave Gateway :
+### Instantiating the Gateway :
 
 The `FlutterwavePaymentGateway` can be instantiated using the standard PHP syntax as follows
 
@@ -64,7 +64,7 @@ $flutterwave = new FlutterwavePaymentGateway($trxCustomizations = 'title::Store,
 
 ```
 
-### Initializing the Monnify Gateway :
+### Initializing the Gateway :
 
 ### MORE DOCUMENTATION LOADING....
 
