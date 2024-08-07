@@ -59,6 +59,8 @@ $paystack = new PaystackPaymentGateway($trxCustomizations = 'title::Store,desc::
 ?>
 
 ```
+### Initializing the Gateway :
+
 
 ### MORE DOCUMENTATION LOADING....
 
