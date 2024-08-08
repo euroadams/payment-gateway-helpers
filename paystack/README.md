@@ -6,7 +6,7 @@
 > [!NOTE]
 > All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
-#### Configuring API Key
+#### Configuring the API Key
 
 First define a constant `PSTK_API_KEY` to hold your paystack API keys and assign it an associative array with key/value pairs as follows 
 
@@ -27,7 +27,7 @@ First define a constant `PSTK_API_KEY` to hold your paystack API keys and assign
 ```
 
 
-## Instantiating the Paystack Gateway :
+### Instantiating the Gateway :
 
 The `PaystackPaymentGateway` can be instantiated using the standard PHP syntax as follows
 
