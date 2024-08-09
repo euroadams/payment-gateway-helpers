@@ -6,7 +6,7 @@
 >[!NOTE]
 >All sample example codes are for demonstration purpose only. It's recommended to optimize it before using in production environment.
 
-#### Configuring API Key
+#### Configuring the API Key
 
 First define a constant `MNFY_API_KEY` to hold your monnify API keys and assign it an associative array with key/value pairs as follows 
 
@@ -23,7 +23,7 @@ First define a constant `MNFY_API_KEY` to hold your monnify API keys and assign 
     );
 ?>
 ```
-## Instantiating the Monnify Gateway :
+## Instantiating the Gateway :
 
 The `MonnifyPaymentGateway` can be instantiated using the standard PHP syntax as follows
 
@@ -56,6 +56,6 @@ $monnify = new MonnifyPaymentGateway($trxCustomizations = 'title::Store,desc::Se
 
 ```
 
-## Initializing the Monnify Gateway :
+## Initializing the Gateway :
 
 ### MORE DOCUMENTATION LOADING....
