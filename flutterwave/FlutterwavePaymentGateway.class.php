@@ -1840,7 +1840,7 @@ class FlutterwavePaymentGateway extends PaymentGateway{
 		 
 		
 		
-		//POINT ENDPOINT CALLS TO APPROPRAITE API URL
+		//POINT ENDPOINT CALLS TO APPROPRIATE API URL
 		if(isset($curlUrl)){
 			
 			$curlHttpHeader = [
