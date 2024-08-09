@@ -336,24 +336,28 @@ class PaymentGateway{
 		$renderType = isset($optArr[$K='renderType'])? $optArr[$K] : 'smart';
 		$uid = isset($optArr[$K='uid'])? $optArr[$K] : 0;
 		
+		$customMeta = 'title::'.AdsCampaign::$storeName.',desc::Ads Campaign Credit Purchase';
+		$customHeader = 'purchase credits';
+		$minAmount = MIN_AD_DEPOSIT;
+
+		$getPaystack = $getFlutterwave = $getMonnify = $getAll = $renderSlide = $renderTab = $renderSmart = false;
+		
 		switch(strtolower($type)){
 			
-			default:  
-				$customMeta = 'title::'.AdsCampaign::$storeName.',desc::Ads Campaign Credit Purchase';
-				$customHeader = 'purchase credits';
-				$minAmount = MIN_AD_DEPOSIT;
-			
+			case 'paystack' : $getPaystack = true; break;
+			case 'flutterwave' : $getFlutterwave = true; break;
+			case 'monnify' : $getMonnify = true; break;		
+			case 'all' :
+			default: $getAll = true;	
 			
 		}
-
-		$renderSlide = $renderTab = $renderSmart = false;
 
 		switch(strtolower($renderType)){
 
 			case 'tab': $renderTab = true; break;
 			case 'slide': $renderSlide = true; break;
-			default:
-				$renderSmart = true;
+			case 'smart':
+			default: $renderSmart = true;
 
 		}
 		
@@ -366,48 +370,63 @@ class PaymentGateway{
 		list($flutterwavePaymentForm, $flutterwavePaymentFormToggleBtn, $flutterwaveAlertBox) = $flutterwavePaymentGateway->getPaymentGatewayForm($uid, array_merge($metaArr, array($K => "Pay with Flutterwave")));
 		list($monnifyPaymentForm, $monnifyPaymentFormToggleBtn, $monnifyAlertBox) = $monnifyPaymentGateway->getPaymentGatewayForm($uid, array_merge($metaArr, array($K => "Pay with Monnify")));
 		
-		$allPayBtn = '<div '.($K='class="inline-block"').'>'.$paystackPaymentFormToggleBtn.'</div>
-					<div '.$K.'>'.$flutterwavePaymentFormToggleBtn.'</div>
-					<div '.$K.'>'.$monnifyPaymentFormToggleBtn.'</div>';
+		if($getAll){
+			
+			$allPayBtn = '<div '.($K='class="inline-block"').'>'.$paystackPaymentFormToggleBtn.'</div>
+						<div '.$K.'>'.$flutterwavePaymentFormToggleBtn.'</div>
+						<div '.$K.'>'.$monnifyPaymentFormToggleBtn.'</div>';
 
-		$slideRender = '<div class="'.self::$paymentFormContextClass.'">
-							<div data-slide-show-external-pager-target="'.($K='payment-forms-slide').'">
-								'.$allPayBtn.'
-							</div>
-							<div id="'.$K.'" class="slide-show" hidden data-has-external-pager="true" data-scale-full="true" data-pager-numbers="false" data-animate="slideInLeft">
-								<div>'.$paystackPaymentForm.'</div>
-								<div>'.$flutterwavePaymentForm.'</div>
-								<div>'.$monnifyPaymentForm.'</div>
-							</div>'.$paystackAlertBox.$flutterwaveAlertBox.$monnifyAlertBox.'	
+			$slideRender = '<div class="'.self::$paymentFormContextClass.'">
+								<div data-slide-show-external-pager-target="'.($K='payment-forms-slide').'">
+									'.$allPayBtn.'
+								</div>
+								<div id="'.$K.'" class="slide-show" hidden data-has-external-pager="true" data-scale-full="true" data-pager-numbers="false" data-animate="slideInLeft">
+									<div>'.$paystackPaymentForm.'</div>
+									<div>'.$flutterwavePaymentForm.'</div>
+									<div>'.$monnifyPaymentForm.'</div>
+								</div>'.$paystackAlertBox.$flutterwaveAlertBox.$monnifyAlertBox.'	
+							</div>';
+
+			$tabRender = '<nav class="nav-base">
+								<ul class="nav nav-tabs justified-center justified">			
+									<li><a '.($K = 'data-toggle="tab-tab"').'>'.$paystackPaymentFormToggleBtn.'</a></li>
+									<li><a '.$K.'>'.$flutterwavePaymentFormToggleBtn.'</a></li>	
+									<li><a '.$K.'>'.$monnifyPaymentFormToggleBtn.'</a></li>
+								</ul>
+								<div class="tab-contents has-tab-close">
+									<div class="'.($K = 'tab-content').'">'.$paystackPaymentForm.'</div>
+									<div class="'.$K.'">'.$flutterwavePaymentForm.'</div>
+									<div class="'.$K.'">'.$monnifyPaymentForm.'</div>
+								</div>'.$paystackAlertBox.$flutterwaveAlertBox.$monnifyAlertBox.'
+							</nav>';
+
+						
+			if($renderSlide)
+				$res = $slideRender;
+
+			elseif($renderTab)
+				$res = $tabRender;
+
+			elseif($renderSmart)
+				$res = '<div class="dsk-platform-dpn">'.$tabRender.'</div><div class="mob-platform-dpn">'.$slideRender.'</div>';
+
+			else			
+				$res = '<div class="'.self::$paymentFormContextClass.'">'.
+							$allPayBtn.$paystackPaymentForm.$flutterwavePaymentForm.$monnifyPaymentForm.'
 						</div>';
 
-		$tabRender = '<nav class="nav-base">
-							<ul class="nav nav-tabs justified-center justified">			
-								<li><a '.($K = 'data-toggle="tab-tab"').'>'.$paystackPaymentFormToggleBtn.'</a></li>
-								<li><a '.$K.'>'.$flutterwavePaymentFormToggleBtn.'</a></li>	
-								<li><a '.$K.'>'.$monnifyPaymentFormToggleBtn.'</a></li>
-							</ul>
-							<div class="tab-contents has-tab-close">
-								<div class="'.($K = 'tab-content').'">'.$paystackPaymentForm.'</div>
-								<div class="'.$K.'">'.$flutterwavePaymentForm.'</div>
-								<div class="'.$K.'">'.$monnifyPaymentForm.'</div>
-							</div>'.$paystackAlertBox.$flutterwaveAlertBox.$monnifyAlertBox.'
-						</nav>';
+		}else{
 
-					
-		if($renderSlide)
-			$res = $slideRender;
+			if($getPaystack)
+				$res = $paystackPaymentForm;
 
-		elseif($renderTab)
-			$res = $tabRender;
+			if($getFlutterwave)
+				$res = $flutterwavePaymentForm;
 
-		elseif($renderSmart)
-			$res = '<div class="dsk-platform-dpn">'.$tabRender.'</div><div class="mob-platform-dpn">'.$slideRender.'</div>';
+			if($getMonnify)
+				$res = $monnifyPaymentForm;
 
-		else			
-			$res = '<div class="'.self::$paymentFormContextClass.'">'.
-						$allPayBtn.$paystackPaymentForm.$flutterwavePaymentForm.$monnifyPaymentForm.'
-					</div>';
+		}
 					
 		return $res;
 		
