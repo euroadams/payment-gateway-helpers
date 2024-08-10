@@ -29,8 +29,41 @@ A PHP based class for handling all endpoint calls for paystack, flutterwave and 
 <img src="https://github.com/euroadams/euroadams/blob/master/assets/public/work-samples/monnify.jpg" alt="Monnify Sample" width="auto" height="auto"/>
 
 :point_right: Read the complete usage guide [here][l3] 
+
+## Invoking the Gateway Forms 
+The collective payment gateway forms can be invoked by calling the static method `getPaymentBtns()` as shown below
+
+```php
+
+<?php
+
+PaymentGateway::getPaymentBtns($optArr = array('type' => 'all', 'uid' => 2398) );
+
+
+/****
+ *  PARAMETER DEFINITION :
+ * 
+ *  @param $optArr => An array of key-value options
+ *  => The supported option keys are defined as follows: 
+ *         1. type => A string that defines the payment form type to fetch. 
+ *            => supported values are [ paystack | flutterwave | monnify | all ]
+ *            => defaults to 'all'
+ *         2. renderType => This option is only useful when 'type' key above is 'all'
+ *                       => it defines how all the payment forms are render on the screen 
+ *                       => supported values are [ slide | tab | smart]
+ *                       => slide: render the forms as slides
+ *                       => tab: render the forms as tabs
+ *                       => smart: render the forms smartly as slides or tabs depending on platform/screen size
+ *                       => defaults to 'smart'                     
+ *         3. uid => Unique database id of the session user making the payment
+ *  
+ ****/
+
+?>
+
+```
    
-[link-author]: https://linkedin.com/in/adoagwai-godswill
+[link-author]: https://linkedin.com/in/adiagwai-godswill
 [l1]: <https://github.com/euroadams/payment-gateway-helpers/tree/main/paystack/README.md>
 
 [l2]: <https://github.com/euroadams/payment-gateway-helpers/tree/main/flutterwave/README.md>
