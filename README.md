@@ -1,10 +1,12 @@
 # payment-gateway-helpers
 A PHP based class for handling all endpoint calls for paystack, flutterwave and monnify API
+<!--
 <div>
 <a href="https://www.paystack.com/" target="_blank" rel="noreferrer"><img src="/logos/paystack.svg" title="Paystack" alt="Paystack logo" width="20" height="20"/></a>&nbsp;&nbsp;
 <a href="https://www.flutterwave.com/ng/" target="_blank" rel="noreferrer"><img src="/logos/flutterwave.svg" title="Flutterwave" alt="Flutterwave logo" width="20" height="20"/></a>&nbsp;&nbsp;
 <a href="https://monnify.com/" target="_blank" rel="noreferrer"><img src="/logos/monnify.svg" title="Monnify" alt="Monnify logo" width="20" height="20"/></a> 
-</div>
+</div> 
+-->
 
 ## Sample For Paystack :
 <p>
