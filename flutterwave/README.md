@@ -98,7 +98,7 @@ PaymentGateway::getPaymentBtns($optArr = array('type' => 'flutterwave', 'uid' =>
 
 ```
 
-## Invoking All the Gateway Forms 
+### Invoking All the Gateway Forms 
 ```php
 
 <?php
