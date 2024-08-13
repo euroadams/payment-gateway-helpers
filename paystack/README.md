@@ -93,7 +93,7 @@ PaymentGateway::getPaymentBtns($optArr = array('type' => 'paystack', 'uid' => 23
 
 ```
 
-## Invoking All the Gateway Forms 
+### Invoking All the Gateway Forms 
 The collective payment gateway forms can be invoked by calling the static method `getPaymentBtns()` as shown below
 
 ```php
