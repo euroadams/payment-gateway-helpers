@@ -67,39 +67,10 @@ The payment gateway form can be invoked by calling the static method `getPayment
 
 <?php
 
+// Invoking The Paystack Form
 PaymentGateway::getPaymentBtns($optArr = array('type' => 'paystack', 'uid' => 2398) );
 
-
-/****
- *  PARAMETER DEFINITION :
- * 
- *  @param $optArr => An array of key-value options
- *  => The supported option keys are defined as follows: 
- *         1. type => A string that defines the payment form type to fetch. 
- *            => supported values are [ paystack | flutterwave | monnify | all ]
- *            => defaults to 'all'
- *         2. renderType => This option is only useful when 'type' key above is 'all'
- *                       => it defines how all the payment forms are render on the screen 
- *                       => supported values are [ slide | tab | smart]
- *                       => slide: render the forms as slides
- *                       => tab: render the forms as tabs
- *                       => smart: render the forms smartly as slides or tabs depending on platform/screen size
- *                       => defaults to 'smart'                     
- *         3. uid => Unique database id of the session user making the payment
- *  
- ****/
-
-?>
-
-```
-
-### Invoking All the Gateway Forms :
-The collective payment gateway forms can be invoked by calling the static method `getPaymentBtns()` as shown below
-
-```php
-
-<?php
-
+// Invoking All The Payment Forms
 PaymentGateway::getPaymentBtns($optArr = array('type' => 'all', 'uid' => 2398) );
 
 
