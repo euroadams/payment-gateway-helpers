@@ -67,7 +67,7 @@ The payment gateway form can be invoked by calling the static method `getPayment
 
 <?php
 
-// Invoking The Paystack Form
+// Invoking Paystack Payment Form
 PaymentGateway::getPaymentBtns($optArr = array('type' => 'paystack', 'uid' => 2398) );
 
 // Invoking All The Payment Forms
