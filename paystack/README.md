@@ -98,6 +98,6 @@ PaymentGateway::getPaymentBtns($optArr = array('type' => 'all', 'uid' => 2398) )
 ```
 
 
-### MORE DOCUMENTATION LOADING....
+### MORE DOCUMENTATION COMING SOON....
 
 
